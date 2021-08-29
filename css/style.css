@@ -28,6 +28,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
   color: var(--main-darker);
+  font-size: 12px;
 }
 
 header,
@@ -36,20 +37,13 @@ section {
   margin: var(--main-margin);
 }
 
-h1 {
-  font-size: 24px;
-  padding: 1% 0;
-  line-height: 1%;
-  text-align: center; 
-}
-
 h2 {
-  font-size: 18px;
+  font-size: 1.5rem;
   margin-top: 3%; 
 }
 
 h3 {
-  font-size: 12px;
+  font-size: 1rem;
   text-transform: uppercase;
   color: var(--main-darker);
   margin-top: 2%;
@@ -126,6 +120,29 @@ h3 {
   font-size: 4rem;
   color: var(--main-darker);
   font-size: bold;
+}
+
+@media (min-width: 1920px) {
+  
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  .discountsticker {
+    font-size: 2rem;
+  }
+
+  .discountsticker__precentage {
+    padding: 25%;
+  }
+  
+  .discountsticker__label {
+    padding: 5%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 925px) {
